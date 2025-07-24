@@ -5,8 +5,8 @@ I fork it for self-learning.
 
 ## 实验进度：
 
-- [ ] [Data Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/01_Data%20Lab)
-- [ ] [Bomb Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/02_Bomb%20Lab)
+- [x] [Data Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/01_Data%20Lab)
+- [x] [Bomb Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/02_Bomb%20Lab)
 - [ ] [Attack Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/03_Attack%20Lab)
 - [ ] [Architecture Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/04_Architecture%20Lab)
 - [ ] [Cache Lab](https://github.com/kcxain/CSAPP-Lab/tree/master/solutions/05_Cache%20Lab)
