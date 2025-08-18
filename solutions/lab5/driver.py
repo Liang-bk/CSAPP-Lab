@@ -48,8 +48,8 @@ def main():
     autograde = opts.autograde
 
     # Check the correctness of the cache simulator
-    print("Part A: Testing cache simulator")
-    print("Running ./test-csim")
+    print "Part A: Testing cache simulator"
+    print "Running ./test-csim"
     p = subprocess.Popen("./test-csim", 
                          shell=True, stdout=subprocess.PIPE)
     stdout_data = p.communicate()[0]
@@ -60,12 +60,12 @@ def main():
         if re.match("TEST_CSIM_RESULTS", line):
             resultsim = re.findall(r'(\d+)', line)
         else:
-            print("%s" % (line))
+            print "%s" % (line)
 
     # Check the correctness and performance of the transpose function
     # 32x32 transpose
-    print("Part B: Testing transpose function")
-    print("Running ./test-trans -M 32 -N 32")
+    print "Part B: Testing transpose function"
+    print "Running ./test-trans -M 32 -N 32"
     p = subprocess.Popen("./test-trans -M 32 -N 32 | grep TEST_TRANS_RESULTS", 
                          shell=True, stdout=subprocess.PIPE)
     stdout_data = p.communicate()[0]
